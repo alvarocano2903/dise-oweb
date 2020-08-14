@@ -1,36 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Diseño Web</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <header>
-        <h1 style="color: darkred">Información de programación</h1>
+
+<body class="sansserif">
+    <header class="d-flex">
+        <img src="imagenes/html5.png" class="margin-logo" height="40" width="40" />
+        <h1 style="color: darkred" class="">Información de programación</h1>
+        <nav class="d-flex margin-nav ml-auto">
+            <a href="index.html" class="mr-2">Home</a>
+            <a href="nCursos.html" class="mr-2">Nuestros cursos</a>
+            <a href="sedes.html" class="mr-2">Sedes</a>
+            <a href="videos.html" class="mr-2">Videos</a>
+            <a href="articulos.html" class="mr-2">Artículos</a>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="nCursos.html">Nuestros cursos</a></li>
-            <li><a href="sedes.html">Sedes</a></li>
-            <li><a href="videos.html">Videos</a></li>
-            <li><a href="articulos.html">Artículos</a></li>
-        </ul>
-    </nav>
     <div>
-        <aside>
-            <img src="imagenes/html5.png" height="112" width="112"/>
-        </aside>
-    </div>
-    <div>
-        <h2>Proximos eventos</h2>
-        <img src="imagenes/eventos.jpg" height="311" width="415"/>
+        <img src="imagenes/eventos.jpg" height="311" width="415" />
         <p><a href="articulos.html">Ver más...</a></p>
     </div>
 
-    <footer>
-        Realizado por Álvaro Cano
+    <footer class="position-absolute bottom0 margin-footer">
+        <span>
+            Realizado por Álvaro Cano
+        </span>
     </footer>
 </body>
+
 </html>
